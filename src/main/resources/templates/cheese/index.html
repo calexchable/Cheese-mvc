@@ -10,7 +10,7 @@
 
     <ul>
         <li th:each="cheese : ${cheeses}">
-            <span th:text="${cheese.getKey()} + ':' + ${cheese.getValue()}"></span>
+            <span th:text="${cheese.getKey()} + ': ' + ${cheese.getValue()}"></span>
         </li>
     </ul>
 
